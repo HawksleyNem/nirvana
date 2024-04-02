@@ -13,9 +13,9 @@ body {
     background-color: var(--primary-color);
 }
 
-.playfair-display {
-    font-family: "Playfair Display", serif;
+.imbue {
+    font-family: "Imbue", serif;
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
-}
+  }
