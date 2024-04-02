@@ -1,0 +1,21 @@
+* {
+    --primary-color: #1F1F1F;
+    --secondary-color: #EFEE56;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+.playfair-display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
