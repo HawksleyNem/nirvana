@@ -109,3 +109,67 @@ main {
     padding-inline: 1rem !important;
     padding-block: 0.5rem !important;
 }
+
+.imbue {
+  font-family: "Imbue", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.imbue span {
+  color: #efee56 !important;
+  font-family: "Imbue", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.video-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding-top: 56.25%;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.disc-card {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  padding: 30px;
+}
+
+.disc-card img {
+  width: 115px;
+}
+
+.discographie {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.disc-card p {
+  font-family: "SeoulNamsan";
+}
+
+.imbue-container {
+  display: flex;
+  justify-content: center;
+}
+
+#carouselExampleVideos {
+  padding: 5%;
+}
+
+footer {
+  background-color: #2e2e2e;
+}
