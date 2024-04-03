@@ -55,8 +55,12 @@ p {
 
 header {
     width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
+    background: url("../images/heorbanner.png");
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 nav {
@@ -77,15 +81,11 @@ nav li {
     text-transform: uppercase;
 }
 
-.hero-banner {
-    width: 100%;
-}
-
 
 /* MAIN */
 
 main {
-    padding-block: 20rem !important;
+    padding-block: 8rem !important;
 }
 
 .biography-content {
