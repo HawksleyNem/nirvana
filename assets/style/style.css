@@ -3,6 +3,8 @@
 * {
     --primary-color: #1F1F1F;
     --secondary-color: #EFEE56;
+    --primary-dark1-color: #1B1B1B;
+    --primary-dark2-color: #171717;
     margin: 0 !important;
     padding: 0 !important;
     list-style: none;
@@ -30,6 +32,10 @@ h2 {
 .yellow {
     color: var(--secondary-color) !important;
     font-family: "Imbue", serif;
+}
+
+.highlight {
+    font-weight: 500;
 }
 
 
@@ -75,11 +81,31 @@ main {
     justify-content: space-between;
 }
 
-.biography-img {
-    width: 30rem;
+.biography-left {
+    width: 250rem;
     margin-right: 5rem !important;
 }
 
-p + p {
+.biography-img {
+    width: 100%;
+    margin-bottom: 2rem !important;
+}
+
+.description p + p {
     margin-top: 1.5rem !important;
+}
+
+.group-info .row1:nth-child(odd) {
+    background-color: var(--primary-dark1-color);
+}
+
+.group-info .row1:nth-child(even) {
+    background-color: var(--primary-dark2-color);
+}
+
+.group-info .row1 {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1rem !important;
+    padding-block: 0.5rem !important;
 }
