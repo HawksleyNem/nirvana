@@ -5,8 +5,8 @@
     --secondary-color: #EFEE56;
     --primary-dark1-color: #1B1B1B;
     --primary-dark2-color: #171717;
-    margin: 0 !important;
-    padding: 0 !important;
+    margin: 0;
+    padding: 0;
     list-style: none;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -27,6 +27,13 @@ h2 {
     font-weight: 400 !important;
     text-transform: uppercase;
     margin-bottom: 5rem !important;
+}
+
+h3 {
+    font-family: "Imbue", serif;
+    font-size: 3rem !important;
+    font-weight: 400 !important;
+    text-transform: uppercase;
 }
 
 .yellow {
@@ -148,13 +155,12 @@ main {
 }
 
 .disc-card img {
-  width: 115px;
+  width: 180px;
 }
 
 .discographie {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .disc-card p {
