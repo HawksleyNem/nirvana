@@ -18,6 +18,7 @@
 
 body {
     background-color: var(--primary-color) !important;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 h2 {
@@ -184,4 +185,23 @@ main {
 
 footer {
   background-color: #2e2e2e;
+  padding: 5% 0 0 0;
+}
+
+.separator {
+  width: 100%;
+  height: 2px;
+  background-color: #1f1f1f;
+  margin: 3% 0;
+}
+
+.top-container {
+  display: flex;
+  gap: 12%;
+}
+
+.terms {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
