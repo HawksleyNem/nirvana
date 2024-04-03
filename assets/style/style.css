@@ -1,120 +1,121 @@
 /* RESET */
 
 * {
-    --primary-color: #1F1F1F;
-    --secondary-color: #EFEE56;
-    --primary-dark1-color: #1B1B1B;
-    --primary-dark2-color: #171717;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #FFFFFF !important;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
 
 /* GLOBAL */
 
 body {
-    background-color: var(--primary-color) !important;
+  background-color: var(--primary-color) !important;
 }
 
 h2 {
-    font-family: "Imbue", serif;
-    text-align: center;
-    font-size: 6rem !important;
-    font-weight: 400 !important;
-    text-transform: uppercase;
-    margin-bottom: 5rem !important;
+  font-family: "Imbue", serif;
+  text-align: center;
+  font-size: 6rem !important;
+  font-weight: 400 !important;
+  text-transform: uppercase;
+  margin-bottom: 5rem !important;
 }
 
 h3 {
-    font-family: "Imbue", serif;
-    font-size: 3rem !important;
-    font-weight: 400 !important;
-    text-transform: uppercase;
+  font-family: "Imbue", serif;
+  font-size: 3rem !important;
+  font-weight: 400 !important;
+  text-transform: uppercase;
 }
 
 .yellow {
-    color: var(--secondary-color) !important;
-    font-family: "Imbue", serif;
+  color: var(--secondary-color) !important;
+  font-family: "Imbue", serif;
 }
 
 .highlight {
-    font-weight: 500;
+  font-weight: 500;
 }
-
 
 /* HEADER */
 
 header {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 nav {
-    position: fixed;
-    width: 90%;
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  background-color: #17171700;
+  z-index: 2;
+}
+
+.nav-scrolled {
+  background-color: #171717;
 }
 
 nav ul {
-    display: flex;
+  display: flex;
+  padding: 0;
+  margin: 0;
 }
 
 nav li {
-    margin-inline: 1.2rem !important;
-    text-transform: uppercase;
+  margin-inline: 1.2rem !important;
+  text-transform: uppercase;
 }
 
 .hero-banner {
-    width: 100%;
+  width: 100%;
 }
-
 
 /* MAIN */
 
 main {
-    padding-block: 20rem !important;
+  padding-block: 20rem !important;
 }
 
 .biography-content {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .biography-left {
-    width: 250rem;
-    margin-right: 5rem !important;
+  width: 250rem;
+  margin-right: 5rem !important;
 }
 
 .biography-img {
-    width: 100%;
-    margin-bottom: 2rem !important;
+  width: 100%;
+  margin-bottom: 2rem !important;
 }
 
 .description p + p {
-    margin-top: 1.5rem !important;
+  margin-top: 1.5rem !important;
 }
 
 .group-info .row1:nth-child(odd) {
-    background-color: var(--primary-dark1-color);
+  background-color: var(--primary-dark1-color);
 }
 
 .group-info .row1:nth-child(even) {
-    background-color: var(--primary-dark2-color);
+  background-color: var(--primary-dark2-color);
 }
 
 .group-info .row1 {
-    display: flex;
-    justify-content: space-between;
-    padding-inline: 1rem !important;
-    padding-block: 0.5rem !important;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 1rem !important;
+  padding-block: 0.5rem !important;
 }
 
 .imbue {
@@ -125,7 +126,7 @@ main {
 }
 
 .imbue span {
-  color: #efee56 !important;
+  color: var(--secondary-color) !important;
   font-family: "Imbue", serif;
   font-optical-sizing: auto;
   font-weight: 100;
@@ -178,4 +179,45 @@ main {
 
 footer {
   background-color: #2e2e2e;
+  padding: 5% 0 0 0;
+}
+
+.separator {
+  width: 100%;
+  height: 2px;
+  background-color: #1f1f1f;
+  margin: 3% 0;
+}
+
+.top-container {
+  display: flex;
+  gap: 12%;
+}
+
+.terms {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.light-theme {
+  --primary-color: #1f1f1f;
+  --secondary-color: #efee56;
+  --primary-dark1-color: #1b1b1b;
+  --primary-dark2-color: #171717;
+  color: #ffffff;
+  background-color: #ffffff;
+}
+
+.dark-theme {
+  --primary-color: #ffffff;
+  --secondary-color: #efee56;
+  --primary-dark1-color: #1b1b1b;
+  --primary-dark2-color: #171717;
+  color: #1f1f1f;
+  background-color: #1f1f1f;
 }
