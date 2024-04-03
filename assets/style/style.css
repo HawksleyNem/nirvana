@@ -1,21 +1,85 @@
+/* RESET */
+
 * {
     --primary-color: #1F1F1F;
     --secondary-color: #EFEE56;
-    margin: 0;
-    padding: 0;
+    margin: 0 !important;
+    padding: 0 !important;
     list-style: none;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
 }
+
+
+/* GLOBAL */
 
 body {
-    background-color: var(--primary-color);
+    background-color: var(--primary-color) !important;
 }
 
-.imbue {
+h2 {
     font-family: "Imbue", serif;
-    font-optical-sizing: auto;
-    font-weight: 100;
-    font-style: normal;
-  }
+    text-align: center;
+    font-size: 6rem !important;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+    margin-bottom: 5rem !important;
+}
+
+.yellow {
+    color: var(--secondary-color) !important;
+    font-family: "Imbue", serif;
+}
+
+
+/* HEADER */
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    position: fixed;
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin-inline: 1.2rem !important;
+    text-transform: uppercase;
+}
+
+.hero-banner {
+    width: 100%;
+}
+
+
+/* MAIN */
+
+main {
+    padding-block: 20rem !important;
+}
+
+.biography-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.biography-img {
+    width: 30rem;
+    margin-right: 5rem !important;
+}
+
+p + p {
+    margin-top: 1.5rem !important;
+}
