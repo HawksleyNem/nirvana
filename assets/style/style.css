@@ -129,7 +129,7 @@ main {
   width: 100%;
   overflow: hidden;
   position: relative;
-  padding-top: 56.25%;
+  padding-top: 56.25% !important;
 }
 
 .video-container iframe {
@@ -144,7 +144,7 @@ main {
   display: flex;
   flex-direction: row;
   gap: 32px;
-  padding: 30px;
+  padding: 30px !important;
 }
 
 .disc-card img {
@@ -167,7 +167,7 @@ main {
 }
 
 #carouselExampleVideos {
-  padding: 5%;
+  padding: 5% !important;
 }
 
 footer {
