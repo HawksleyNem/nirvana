@@ -31,9 +31,14 @@ h2 {
 
 h3 {
     font-family: "Imbue", serif;
-    font-size: 3rem !important;
+    font-size: 2rem !important;
     font-weight: 400 !important;
     text-transform: uppercase;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 3.5vh;
 }
 
 .yellow {
@@ -152,19 +157,20 @@ main {
   flex-direction: row;
   gap: 32px;
   padding: 30px !important;
+  width: 420px;
 }
 
 .disc-card img {
   width: 180px;
+  height: 180px;
+  object-fit: contain;
+  background-color: var(--primary-dark2-color);
 }
 
 .discographie {
   display: flex;
   flex-wrap: wrap;
-}
-
-.disc-card p {
-  font-family: "SeoulNamsan";
+  margin-left: -30px
 }
 
 .imbue-container {
