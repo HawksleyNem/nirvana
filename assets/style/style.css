@@ -34,6 +34,7 @@
 }
 
 .light-theme footer p,
+.light-theme footer a,
 .light-theme #clips p {
   color: #ffffff !important;
 }
@@ -299,6 +300,10 @@ li {
   align-items: center;
 }
 
+.footer-nav-title {
+  text-transform: uppercase;
+  font-weight: 500;
+}
 
 
 /* MEDIA QUERIES */
