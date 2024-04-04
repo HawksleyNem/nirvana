@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    text-decoration: none;
+    text-decoration: none !important;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #FFFFFF !important;
 }
@@ -81,6 +81,7 @@ nav {
 
 nav ul {
     display: flex;
+    margin: 0;
 }
 
 nav li {
