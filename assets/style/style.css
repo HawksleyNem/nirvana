@@ -76,6 +76,10 @@ body {
   background-color: var(--primary-color) !important;
 }
 
+h1 {
+  font-size: 0 !important;
+}
+
 h2 {
   font-family: "Imbue", serif;
   text-align: center;
