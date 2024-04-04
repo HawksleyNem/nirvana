@@ -96,6 +96,10 @@ main {
     padding-block: 8rem !important;
 }
 
+#biography, #discography {
+  margin-bottom: 10rem;
+}
+
 .biography-content {
     display: flex;
     justify-content: space-between;
