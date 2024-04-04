@@ -27,12 +27,12 @@
     <header>
         <nav>
             <ul>
-                <li>Biographie</li>
-                <li>Discographie</li>
-                <li>Clips</li>
-                <li>A propos</li>
+                <li><a tabindex="1" href="#biography">Biographie</a></li>
+                <li><a tabindex="2" href="#discography">Discographie</a></li>
+                <li><a tabindex="3" href="#clips">Clips</a></li>
+                <li><a tabindex="4" href="#about">A propos</a></li>
                 <li>
-                  <input name="theme-toggle" type="checkbox" id="theme-toggle" checked />
+                  <input tabindex="5" name="theme-toggle" type="checkbox" id="theme-toggle" checked />
                   <label for="theme-toggle" class="toggle-label"></label>
                 </li>
             </ul>
@@ -40,7 +40,7 @@
     </header>
     <main class="d-flex justify-content-center">
         <div class="container container-xxl">
-            <section>
+            <section id="biography">
                 <h2><span class="yellow">La</span> Biographie</h2>
                 <div class="biography-content">
                     <div class="biography-left">
@@ -87,7 +87,7 @@
                 </div>
             </section>
             
-            <section>
+            <section id="discography">
                 <div class="imbue-container">
                     <h2><span class="yellow">La</span> Discographie</h2>
                 </div>
@@ -222,7 +222,7 @@
                   </div>
             </section>
 
-            <section>
+            <section id="clips">
                   <div class="imbue-container">
                     <h2><span class="yellow">Quelques</span> clips</h2>
                   </div>
@@ -300,7 +300,7 @@
             </section>
         </div>
     </main>
-    <footer>
+    <footer id="about">
       <div class="container container-xxl">
         <div class="top-container">
           <div class="child-container">
