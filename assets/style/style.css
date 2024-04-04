@@ -100,7 +100,7 @@ main {
     padding-block: 8rem !important;
 }
 
-#biography, #discography {
+#biography, #discography, #clips, #contact {
   margin-bottom: 10rem;
 }
 
@@ -219,6 +219,17 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.form-btn {
+  background-color: var(--secondary-color) !important;
+  color: var(--primary-color) !important;
+  border-radius: 0 !important;
+}
+
+input, textarea {
+  border-radius: 0 !important;
+  color: var(--primary-color)!important;
 }
 
 
