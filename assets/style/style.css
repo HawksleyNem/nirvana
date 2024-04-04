@@ -18,7 +18,6 @@
 
 body {
     background-color: var(--primary-color) !important;
-    transition: background-color 0.3s, color 0.3s;
 }
 
 h2 {
@@ -62,6 +61,7 @@ header {
     background: url("../images/heorbanner.png");
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
 }
 
 nav {
@@ -210,4 +210,34 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media (max-device-width: 1024px) {
+  .biography-content {
+    flex-direction: column;
+  }
+
+  .biography-img {
+    width: 100%;
+  }
+
+  .biography-left {
+    width: 100%;
+  }
+
+  .group-info {
+    width: 100%;
+  }
+
+  .description {
+    margin-top: 3rem;
+  }
+
+  .discographie {
+    justify-content: center;
+  }
 }
