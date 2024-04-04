@@ -75,6 +75,10 @@ nav {
     z-index: 99;
 }
 
+.theme-label {
+  margin-right: 0.5rem;
+}
+
 .nav-scrolled {
   background-color: #171717;
 }
