@@ -242,3 +242,28 @@ footer {
     justify-content: center;
   }
 }
+
+@media only screen and (max-width: 780px) {
+  .top-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .child-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .terms p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .terms p {
+    font-size: 12px;
+  }
+  .terms {
+    flex-direction: column;
+    align-items: center;
+  }
+}
