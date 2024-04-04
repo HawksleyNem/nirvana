@@ -94,7 +94,6 @@ h3 {
 
 p {
   font-size: 1.2rem;
-  line-height: 3.5vh;
 }
 
 .yellow {
@@ -289,6 +288,11 @@ footer {
 input, textarea {
   border-radius: 0 !important;
   color: var(--primary-color)!important;
+}
+
+li {
+  display: flex;
+  align-items: center;
 }
 
 
