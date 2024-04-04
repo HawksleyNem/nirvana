@@ -1,3 +1,60 @@
+/* THEMES */
+
+.light-theme {
+  --primary-color: #ffffff;
+  --secondary-color: #efee56;
+  --primary-dark1-color: #1b1b1b;
+  --primary-dark2-color: #171717;
+  color: #1f1f1f;
+  background-color: #1f1f1f;
+}
+
+.light-theme * {
+  color: #1f1f1f !important;
+}
+
+.light-theme .yellow {
+  color: #1f1f1f !important;
+}
+
+.light-theme .nav-link {
+  color: #ffffff !important;
+}
+
+.light-theme .theme-label {
+  color: #ffffff !important;
+}
+
+.light-theme h4 {
+  color: #ffffff !important;
+}
+
+.light-theme h5 {
+  color: #ffffff !important;
+}
+
+.light-theme footer p,
+.light-theme #clips p {
+  color: #ffffff !important;
+}
+
+.light-theme .group-info .row1:nth-child(odd) {
+  background-color: #efefef;
+}
+
+.light-theme .group-info .row1:nth-child(even) {
+  background-color: #e3e3e3;
+}
+
+.dark-theme {
+  --primary-color: #1f1f1f;
+  --secondary-color: #efee56;
+  --primary-dark1-color: #1b1b1b;
+  --primary-dark2-color: #171717;
+  color: #ffffff;
+  background-color: #ffffff;
+}
+
 /* RESET */
 
 * {
