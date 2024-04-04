@@ -1,39 +1,38 @@
 /* RESET */
 
 * {
-    --primary-color: #1F1F1F;
-    --secondary-color: #EFEE56;
-    --primary-dark1-color: #1B1B1B;
-    --primary-dark2-color: #171717;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none !important;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #FFFFFF !important;
+  --primary-color: #1f1f1f;
+  --secondary-color: #efee56;
+  --primary-dark1-color: #1b1b1b;
+  --primary-dark2-color: #171717;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff !important;
 }
-
 
 /* GLOBAL */
 
 body {
-    background-color: var(--primary-color) !important;
+  background-color: var(--primary-color) !important;
 }
 
 h2 {
-    font-family: "Imbue", serif;
-    text-align: center;
-    font-size: 6rem !important;
-    font-weight: 400 !important;
-    text-transform: uppercase;
-    margin-bottom: 5rem !important;
+  font-family: "Imbue", serif;
+  text-align: center;
+  font-size: 6rem !important;
+  font-weight: 400 !important;
+  text-transform: uppercase;
+  margin-bottom: 5rem !important;
 }
 
 h3 {
-    font-family: "Imbue", serif;
-    font-size: 2rem !important;
-    font-weight: 400 !important;
-    text-transform: uppercase;
+  font-family: "Imbue", serif;
+  font-size: 2rem !important;
+  font-weight: 400 !important;
+  text-transform: uppercase;
 }
 
 p {
@@ -42,37 +41,41 @@ p {
 }
 
 .yellow {
-    color: var(--secondary-color) !important;
-    font-family: "Imbue", serif;
+  color: var(--secondary-color) !important;
+  font-family: "Imbue", serif;
 }
 
 .highlight {
-    font-weight: 500;
+  font-weight: 500;
 }
-
 
 /* HEADER */
 
 header {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    background: url("../images/heorbanner.png");
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: url("../images/heorbanner.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
 nav {
-    position: fixed;
-    width: 100%;
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.3s;
-    z-index: 99;
+  position: fixed !important;
+  width: 100%;
+  /* height: 10vh; */
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  transition: 0.3s;
+  z-index: 99;
+  background-color: #17171700;
+}
+
+.navbar-collapse {
+  justify-content: center;
 }
 
 .theme-label {
@@ -84,58 +87,58 @@ nav {
 }
 
 nav ul {
-    display: flex;
-    margin: 0;
+  display: flex;
+  margin: 0;
 }
 
 nav li {
-    margin-inline: 1.2rem !important;
-    text-transform: uppercase;
+  margin-inline: 1.2rem !important;
+  text-transform: uppercase;
 }
-
 
 /* MAIN */
 
 main {
-    padding-block: 8rem !important;
+  padding-block: 8rem !important;
 }
 
-#biography, #discography {
+#biography,
+#discography {
   margin-bottom: 10rem;
 }
 
 .biography-content {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .biography-left {
-    width: 250rem;
-    margin-right: 5rem !important;
+  width: 250rem;
+  margin-right: 5rem !important;
 }
 
 .biography-img {
-    width: 100%;
-    margin-bottom: 2rem !important;
+  width: 100%;
+  margin-bottom: 2rem !important;
 }
 
 .description p + p {
-    margin-top: 1.5rem !important;
+  margin-top: 1.5rem !important;
 }
 
 .group-info .row1:nth-child(odd) {
-    background-color: var(--primary-dark1-color);
+  background-color: var(--primary-dark1-color);
 }
 
 .group-info .row1:nth-child(even) {
-    background-color: var(--primary-dark2-color);
+  background-color: var(--primary-dark2-color);
 }
 
 .group-info .row1 {
-    display: flex;
-    justify-content: space-between;
-    padding-inline: 1rem !important;
-    padding-block: 0.5rem !important;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 1rem !important;
+  padding-block: 0.5rem !important;
 }
 
 .imbue {
@@ -186,7 +189,7 @@ main {
 .discographie {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px
+  margin-left: -30px;
 }
 
 .imbue-container {
@@ -220,8 +223,6 @@ footer {
   flex-direction: row;
   justify-content: space-between;
 }
-
-
 
 /* MEDIA QUERIES */
 
@@ -273,5 +274,11 @@ footer {
   .terms {
     flex-direction: column;
     align-items: center;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  nav {
+    background-color: #171717;
   }
 }
